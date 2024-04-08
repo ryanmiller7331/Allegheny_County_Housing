@@ -42,7 +42,7 @@ Transactions were collected based on the following:
 - No Lots/Land parcels
 - Minimum sale price of $5000
 
-With this criteria in mind, the extension resulted in quite a few CSVs ready to be aggregated. Check out some examples of the raw data in this repository under [here](.................)
+With this criteria in mind, the extension resulted in quite a few CSVs ready to be aggregated. Check out some examples of the raw data in this repository [here](https://github.com/ryanrmiller/Allegheny_County_Housing/tree/main/Datasets/raw)
 
 <h2>
 Aggregation & Preparation
@@ -50,19 +50,19 @@ Aggregation & Preparation
 
 As a newbie to the whole data science/analytics stack, I've found myself really enjoying using Python throughput my learning process. So naturally this is where the fun begins. 
 
-For the most detailed look at my process, check out scripts/aggregation within this repository, or click [here](...................). 
+For the most detailed look at my process, check out scripts/aggregation within this repository, or click [here](https://github.com/ryanrmiller/Allegheny_County_Housing/blob/main/Scripts/aggregation.ipynb). 
 
 Some highlights of the aggregation & prep process:
 
 - Raw files we're collected by listing type, so I combined all raw files of each listing type (I.E. single family, multi, condos, etc.) into one CSV per listing type
 - Added a "Listing Type" column to each corresponding listing type CSV (all in one function, I was proud of myself after this!)
-- Combined all listing type CSVs into one total, workable dataset ("full_housing_data.csv" which you can find in this repository in the "Datasets" file [here](.....................))
+- Combined all listing type CSVs into one total, workable dataset ("full_housing_data.csv" which you can find in this repository in the "Datasets" file [here](https://github.com/ryanrmiller/Allegheny_County_Housing/blob/main/Datasets/full_housing_data.csv))
 
 <h2>
 Data Transformation & Cleaning
 </h2>
 
-Again, checkout scripts/cleaning [here](....................) for the most detailed look at my process. Here's the general workflow: 
+Again, checkout scripts/cleaning [here](https://github.com/ryanrmiller/Allegheny_County_Housing/blob/main/Scripts/cleaning.ipynb) for the most detailed look at my process. Here's the general workflow: 
 - Loading Data
 - Removing duplicates
 - Removing "0 non-null"
@@ -83,8 +83,9 @@ I built a web scraper to assist cleaning and standardizing city and zip code dat
 
 I was able to merge this script's resulting data frame with the data I had collected to standardize city names, pulling the zip code from each row and populating the recognized postal address, then used the resulting data frame to cross reference the proper city names.
 
-Check out the script for the scraper at scripts/scraper in this repository [here](..............). 
-
+Check out the script for the scraper and the resulting data frame below:
+[Web Scraper](https://github.com/ryanrmiller/Allegheny_County_Housing/blob/main/Scripts/scraper.ipynb). 
+[Resulting Data Set](https://github.com/ryanrmiller/Allegheny_County_Housing/blob/main/Datasets/zip_city_check.csv)
 <h2>
 Visualization in Tableau
 </h2>
