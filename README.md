@@ -4,8 +4,6 @@ End-To-End Housing Market Analysis in Allegheny County, Pennsylvania
 
 <h4> 
 The housing market over the past few years has been interesting to say the least. The following is an encompassing analysis on housing data in the Pittsburgh area (Allegheny County) from October 2020 to October 2023. </h4>
- 
-<br>
 
 Index: 
 - Data Collection
