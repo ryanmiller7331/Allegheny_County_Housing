@@ -84,7 +84,7 @@ I built a web scraper to assist cleaning and standardizing city and zip code dat
 I was able to merge this script's resulting data frame with the data I had collected to standardize city names, pulling the zip code from each row and populating the recognized postal address, then used the resulting data frame to cross reference the proper city names.
 
 Check out the script for the scraper and the resulting data frame below: <br>
-[Web Scraper](https://github.com/ryanrmiller/Allegheny_County_Housing/blob/main/Scripts/scraper.ipynb). <br>
+[Web Scraper](https://github.com/ryanrmiller/Allegheny_County_Housing/blob/main/Scripts/scraper.ipynb) <br>
 [Resulting Data Set](https://github.com/ryanrmiller/Allegheny_County_Housing/blob/main/Datasets/zip_city_check.csv)
 <h2>
 Visualization in Tableau
