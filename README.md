@@ -83,16 +83,16 @@ I built a web scraper to assist cleaning and standardizing city and zip code dat
 
 I was able to merge this script's resulting data frame with the data I had collected to standardize city names, pulling the zip code from each row and populating the recognized postal address, then used the resulting data frame to cross reference the proper city names.
 
-Check out the script for the scraper and the resulting data frame below:
-[Web Scraper](https://github.com/ryanrmiller/Allegheny_County_Housing/blob/main/Scripts/scraper.ipynb). 
+Check out the script for the scraper and the resulting data frame below: <br>
+[Web Scraper](https://github.com/ryanrmiller/Allegheny_County_Housing/blob/main/Scripts/scraper.ipynb). <br>
 [Resulting Data Set](https://github.com/ryanrmiller/Allegheny_County_Housing/blob/main/Datasets/zip_city_check.csv)
 <h2>
 Visualization in Tableau
 </h2>
 
-From the resulting dataset after cleaning (found in this repo in Datasets/cleaned_housing_data.csv) I developed a visualization dashboard in Tableau. Click the link below on Tableau Public, or checkout the embedded version on my portfolio website.
+From the resulting dataset after cleaning (found in this repo in [Datasets/cleaned_housing_data.csv](https://github.com/ryanrmiller/Allegheny_County_Housing/blob/main/Datasets/cleaned_housing_data.csv)) I developed a visualization dashboard in Tableau. Click the link below on Tableau Public, or checkout the embedded version on my portfolio website.
 
-[Tableau Public Dashboard](https://public.tableau.com/app/profile/ryan.miller5041/viz/HousingData_16995619245280/AlleghenyCountyHousingTransactionPricingData102020to102023)
+[Tableau Public Dashboard](https://public.tableau.com/app/profile/ryan.miller5041/viz/HousingData_16995619245280/AlleghenyCountyHousingTransactionPricingData102020to102023) <br>
 [My Website with dashboard embedded](......................)
 
 <h2>
